@@ -1,10 +1,10 @@
 /*
-Original design: Variant Whitespace (v1.5 - Jan 17, 2011) - A free xhtml/css website template by Andreas Viklund.
+Adapted from: Variant Whitespace (v1.5 - Jan 17, 2011) - A free xhtml/css website template by Andreas Viklund.
 For more information, see http://andreasviklund.com/templates/variant-whitespace/
 */
 
 /* Main layout and header */
-body {background:#fff url(img/bg.jpg) top center no-repeat; color:#3a3a3a; font:83% Helvetica,Verdana,Arial,sans-serif; line-height:1.6em; margin:0 auto; padding:0;}
+body {background:#fff url(img/bg.jpg) top center no-repeat; color:#3a3a3a; font:83% Courier; line-height:1.6em; margin:0 auto; padding:0;}
 #wrap {color:#555; margin:0 auto; padding:0; width:760px;}
 #header {color:#b75858; height:220px; margin:0 0 10px; padding:0;}
 #header h1 {font-size:3.4em; font-weight:400; width:520px; letter-spacing:-1px; margin:0 0 15px 20px; padding:60px 0 10px;}
@@ -26,7 +26,7 @@ body {background:#fff url(img/bg.jpg) top center no-repeat; color:#3a3a3a; font:
 #content h3 {clear:left; font-size:1.5em; margin:10px 0 10px; padding:0;}
 
 /* Footer */
-#footer {clear:both; font-size:0.9em; color:#555; margin:10px auto; border-top:2px solid #eee; padding:0; text-align:center; width:760px;}
+#footer {clear:both; font-size:0.5em; color:#555; margin:10px auto; border-top:2px solid #eee; padding:0; text-align:center; width:760px;}
 #footer p {margin:0 auto; padding:20px 0 20px;}
 #footer a {color:#666; font-weight:400; text-decoration:none;}
 #footer a:hover {text-decoration:underline;}

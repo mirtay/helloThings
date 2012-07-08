@@ -6,8 +6,9 @@
 <meta name="keywords" content="your,keywords,goes,here" />
 <meta name="author" content="Your Name" />
 <link rel="stylesheet" type="text/css" href="Whitespace.css" media="all" />
-<title>Lemon Bar Diagram</title>
+<title>Recipe Diagrams</title>
 <script type="text/javascript" src="javascripts/d3.v2.js"></script>
+<script type="text/javascript" src="javascripts/pack.js"></script>
 </head>
 
 <body>
@@ -21,32 +22,34 @@
 
 		<div id="sidebar">
 			<ul>
-				<li><a class="current" href="helloThings.html">Home</a></li>
-				<li><a href="lemon_bar.html">Recipe Visualizations</a></li>
-				<li><a>Physical Projects</a>
+				<li><a href="helloThings.html">Home</a></li>
+				<li><a class="current" href="lemon_bar.html">Data vis</a></li>
+				<li><a>Weekends</a>
 					<ul>
 						<li><a href="stocks.html">Stocks</a></li>
 						<li><a href="#">Baking</a></li>
 						<li><a href="#">Sewing</a></li>
 					</ul></li>
-				<li><a href="#">Last page</a></li>
 			</ul>
 		</div>
-		<div id="content">
+		<div id="stocks">
+    	</div>
+		
+    	<div id="lemon_bar">
 		</div>
-		
-		<script type="text/javascript">
-			var file = "data/lemon_bar.json";
+        
+        <script type="text/javascript">
+            circulate("green", "brown", "data/stock.json", "#stocks");
+            circulate("orange", "brown", "data/lemon_bar.json", "#lemon_bar");
 		</script>
-		<script type="text/javascript" src="javascripts/pack.js"></script>
-		
-		<div id="footer">
+        <div id="footer">
 			<p>
-				<span>&copy; 2011 <a href="#">Miranda Taylor</a></span><br />
-				Template design by <a href="http://andreasviklund.com/">Andreas
+				<span>&copy; 2012 <a href="#">Miranda Taylor</a></span><br />
+				Adapted from a template design by <a href="http://andreasviklund.com/">Andreas
 					Viklund</a>
 			</p>
 		</div>
 	</div>
+    
 </body>
 </html>
