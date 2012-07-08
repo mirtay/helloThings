@@ -1,0 +1,41 @@
+
+        {
+            "name":"cook on a very low simmer for as long as possible",
+            "children":[
+                {
+                    "name":"put ingredients in a pot/nsimmer on low for as long as possible/nstrain",
+                    "children":[
+                        {
+                            "name":"whole onion",
+                            "size":5
+                        },
+                        {
+                            "name":"carrots",
+                            "size":3
+                        },
+                        {
+                            "name":"celery stocks",
+                            "size":4
+                        }
+                        ,
+                        {
+                            "name":"bay leaves",
+                            "size":2
+                        },
+                        {
+                            "name":"animal bones",
+                            "size":6
+                        },
+                        {
+                            "name":"some pepper corns",
+                            "size":1
+                        },
+                        {
+                            "name":"cups of water",
+                            "size":12
+                        }
+                    ]
+                }
+            ]
+        }
+    
